@@ -1,7 +1,11 @@
-const Home = () => {
-	return (
-	  <h1>CUBE</h1>
+import Hero from 'components/hero'
+
+export default function Home () {
+  return (
+    <Hero
+      title='CUBE'
+      subtitle='アウトプットしていくサイト'
+      imageOn
+    />
   )
 }
-
-export default Home

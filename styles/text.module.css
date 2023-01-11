@@ -1,0 +1,10 @@
+.text {
+padding: 20px;
+border: solid 2px currentColor;
+color: darkblue;
+}
+
+.textPastel {
+composes: text from "./text.module.css";
+color: lightpink;
+}

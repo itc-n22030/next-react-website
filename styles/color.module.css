@@ -1,0 +1,4 @@
+.color {
+composes: text from "./text.module.css";
+color: lightpink;
+}
