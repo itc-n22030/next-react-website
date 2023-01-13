@@ -1,6 +1,6 @@
 import styles from 'styles/social.module.css'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fontawesome/react-fontawesome'
 import {
   faTwitter,
   faFacebookF,
