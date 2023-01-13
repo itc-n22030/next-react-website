@@ -9,7 +9,7 @@ import {
 
 export default function Social ({ iconSize = 'initial' }) {
   return (
-    <ul className={styles.list} sytles={{ '--icon-size': iconSize }}>
+    <ul className={styles.list} style={{ '--icon-size': iconSize }}>
       <li>
         <a href='https://twitter.com/'>
           <FontAwesomeIcon icon={faTwitter} />
