@@ -11,6 +11,19 @@ display: flex;
 flex-direction: column;
 }
 
+/*　両端ぞろえ */
+.spaceBetween {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+/* 横並び（基本形）*/
+.sideBySide {
+display: flex;
+flex-direction: column;
+}
+
 @media (min-width: 768px) {
 .sideBySide {
 flex-direction: row;
