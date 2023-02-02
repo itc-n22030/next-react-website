@@ -1,5 +1,5 @@
 import { parseISO, format } from 'date-fns'
-import ja from 'date-fns/locate/ja'
+import ja from 'date-fns/locale/ja'
 
 export default function ConverDate ({ dateISO }) {
   return (
