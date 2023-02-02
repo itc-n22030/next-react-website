@@ -19,11 +19,11 @@ export async function getServerSideProps () {
   const slug = 'schedule'
 
   const post = await getPostBySlug(slug)
-
   return {
     props: {
       title: post.title,
       publish: post.publishDate,
+      content: post.content,
       eyecatch: post.eyecatch,
       categories: post.categories
     }
