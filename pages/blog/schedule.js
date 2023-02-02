@@ -15,7 +15,7 @@ export default function Schedule ({
   )
 }
 
-export async function getServerSideProps () {
+export async function getStaticProps () {
   const slug = 'schedule'
 
   const post = await getPostBySlug(slug)
