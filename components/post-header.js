@@ -8,8 +8,11 @@ export default function PostHeader ({ title, subtitle, publish = '' }) {
       <p className={styles.subtitle}>{subtitle}</p>
       <h1 className={styles.title}>{title}</h1>
       {publish && (
-      <div className={styles.publish}>
-      <FontAwesomeIcon icon ={faClock} size="lg" color="var(--gray-25)" />)<div className={styles.publish}>{publish}</div>}
+        <div className={styles.publish}>
+          <FontAwesomeIcon icon={faClock} size='lg' color='var(--gray-25)' />)<div className={styles.publish}>{publish}</div>
+          {publish}
+        </div>
+      )}
     </div>
   )
 }
