@@ -1,7 +1,10 @@
 import { getPostBySlug } from 'lib/api'
 import Container from 'components/container'
 import PostHeader from 'components/post-header'
-import Image from 'next/image'
+import PostBody from 'components/post-body'
+import TwoColumn from 'components/two-column'
+import ConvertBody from 'components/convert-body'
+import Image from 'next/legacy/image'
 
 export default function Schedule ({
   title,
@@ -17,7 +20,7 @@ export default function Schedule ({
 
         <figure>
           <Image
-            sec={eyecatch.url}
+            src={eyecatch.url}
             alt=''
             layout='responsive'
             width={eyecatch.width}
@@ -27,6 +30,14 @@ export default function Schedule ({
           />
         </figure>
 
+        <TwoColumn>
+          <TwoColumn.Main>
+            <PostBody>
+              <ConvertBody contentHTML={content} />
+            </PostBody>
+          </TwoColumn.Main>
+          <TwoColumn.Sidebar />
+        </TwoColumn>
       </article>
     </Container>
   )
