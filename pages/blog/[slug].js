@@ -86,7 +86,7 @@ export async function getStaticProps (context) {
       title: post.title,
       publish: post.publishDate,
       content: post.content,
-      eyecatch: post.eyecatch,
+      eyecatch,
       categories: post.categories,
       description
     }
