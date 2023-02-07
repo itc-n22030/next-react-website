@@ -20,7 +20,9 @@ export default function Post ({
   content,
   eyecatch,
   categories,
-  description
+  description,
+  prevPost,
+  nextPost
 }) {
   return (
     <Container>
@@ -58,6 +60,9 @@ export default function Post ({
             <PostCategories categories={categories} />
           </TwoColumn.Sidebar>
         </TwoColumn>
+
+        <div>{prevPost.title} {prevPost.slug}</div>
+        <div>{nextPost.title} {nextPost.slug}</div>
       </article>
     </Container>
   )
