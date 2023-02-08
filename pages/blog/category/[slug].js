@@ -1,5 +1,5 @@
 import { getAllCategories } from 'lib/api'
-import Container from 'conponents/container'
+import Container from 'components/container'
 import PostHeader from 'components/post-header'
 
 export async function Category ({ name }) {
