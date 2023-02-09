@@ -6,7 +6,14 @@ import Hero from 'components/hero'
 import PostBody from 'components/post-body'
 import Contact from 'components/contact'
 import Image from 'next/legacy/image'
-import eyecatch from 'images/about.jpg'
+// import eyecatch from 'images/about.jpg'
+
+const eyecatch = {
+  src: 'https://images.microcms-assets.io/assets/a6237f2cea804aeb9b3120b69fe5172b/2b21730d6267487896faafcf2c91a41d/eyecatch.jpg',
+  height: 1300,
+  width: 1500,
+  blurDataURL: 'data:image/jpeg:base64,'
+}
 
 export default function About () {
   return (
