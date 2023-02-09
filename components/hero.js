@@ -3,7 +3,7 @@ import Image from 'next/legacy/image'
 // import cube from 'images/cube.jpg'
 
 const cube = {
-  src: 'https://images.microcms-assets.io/assets/a6237f2cea804aeb9b3120b69fe5172b/2b21730d6267487896faafcf2c91a41d/eyecatch.jpg',
+  src: 'https://images.microcms-assets.io/assets/a6237f2cea804aeb9b3120b69fe5172b/f0fe21719af443fd8094d35fe21c4b89/cube.jpg',
   height: 1300,
   width: 1500,
   blurDataURL: 'data:image/jpeg:base64,'

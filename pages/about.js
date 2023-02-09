@@ -10,8 +10,8 @@ import Image from 'next/legacy/image'
 
 const eyecatch = {
   src: 'https://images.microcms-assets.io/assets/a6237f2cea804aeb9b3120b69fe5172b/2b21730d6267487896faafcf2c91a41d/eyecatch.jpg',
-  height: 1300,
-  width: 1500,
+  height: 960,
+  width: 1920,
   blurDataURL: 'data:image/jpeg:base64,'
 }
 
